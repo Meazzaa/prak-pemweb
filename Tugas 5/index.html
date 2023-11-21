@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tugas 5</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <img src="Mm.jpg" width="150" height="150" style="float: left" />
+      <br /><br />
+      <h3 class="indent">Mohamad Meazza Aprilianda</h3>
+      <h4 class="indent">Week End Developer</h4>
+      <br />
+      <button id="changeProfileButton">Ganti Profil</button>
+      <button id="freeButton">Setelah Ganti Profil Pencet Ini Ya!</button>
+    </div>
+    <div class="nav">
+      <a href="https://www.instagram.com/meazzaa_/" target="_blank"
+        >Instagram</a
+      >
+      <a href="https://twitter.com/meazzzaa" target="_blank">Twitter</a>
+      <a href="https://www.linkedin.com/in/meazzaa/" target="_blank"
+        >Linkedin</a
+      >
+    </div>
+
+    <div class="row">
+      <div class="card">
+        <h3>TENTANG SAYA</h3>
+        <p class="justify">
+          Saya adalah individu yang memiliki tekad yang kuat untuk mencapai
+          tujuan-tujuan dalam hidup. Sifat kerajinan dan ketekunan menjadi ciri
+          khas saya dalam mengejar impian. Sebagai seorang yang visioner, saya
+          selalu berusaha untuk melihat jauh ke depan, memiliki rencana yang
+          matang, dan berinovasi dalam berbagai aspek kehidupan. Selain itu,
+          saya juga sangat bertanggung jawab terhadap tugas dan tanggung jawab
+          yang saya emban, selalu berusaha untuk melakukan yang terbaik dalam
+          segala hal yang saya lakukan. Kombinasi dari sifat-sifat ini membantu
+          saya untuk meraih kesuksesan dan memberikan kontribusi positif dalam
+          berbagai aspek kehidupan saya serta dalam masyarakat.
+        </p>
+
+        <div class="video-container">
+          <video width="720" height="480" controls>
+            <source src="Lamborghini.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <h3 class="center">Mobil Impian</h3>
+      </div>
+
+      <div class="card">
+        <h2>Pengalaman Hidup</h2>
+        <table height="200px" border="1">
+          <tr>
+            <th rowspan="2">No</th>
+            <th rowspan="2">Pengalaman</th>
+            <th colspan="2">Tanggal</th>
+          </tr>
+          <tr>
+            <th>Mulai</th>
+            <th>Selesai</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Data Analyst</td>
+            <td>21 Desember 2022</td>
+            <td>5 Februari 2023</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Freelancer</td>
+            <td>1 Agustus 2020</td>
+            <td>Until Now</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="card">
+        <h2>Masukan Email</h2>
+        <form>
+          <label for="email"> Email :</label>
+          <input type="email" id="email" name="email" required />
+          <br />
+          <br />
+
+          <h4>Makan Nasi Pake Ayam?</h4>
+          <label for="option1">
+            <input
+              type="radio"
+              name="pertanyaan1"
+              value="Alhamdulillah"
+              required
+            />
+            Alhamdulillah
+          </label>
+          <br />
+          <label for="option2">
+            <input type="radio" name="pertanyaan1" value="Bosen" required />
+            Bosen
+          </label>
+          <br />
+          <label for="option3">
+            <input type="radio" name="pertanyaan1" value="Kurang" required />
+            Kurang
+          </label>
+          <br />
+          <br /><br />
+
+          <h4>Kapan Lulus?</h4>
+          <label for="option1">
+            <input
+              type="radio"
+              name="pertanyaan2"
+              value="Tepat Waktu"
+              required
+            />
+            Tepat Waktu
+          </label>
+          <br />
+          <label for="option2">
+            <input
+              type="radio"
+              name="pertanyaan2"
+              value="Waktu yang Tepat"
+              required
+            />
+            Waktu yang Tepat
+          </label>
+          <br />
+          <label for="option3">
+            <input type="radio" name="pertanyaan2" value="Yaudahlah" required />
+            Yaudahlah
+          </label>
+          <br />
+          <br />
+          <input type="reset" value="Clear" />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+    <div class="footer">
+      <h3>Ini Footer YGY</h3>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
